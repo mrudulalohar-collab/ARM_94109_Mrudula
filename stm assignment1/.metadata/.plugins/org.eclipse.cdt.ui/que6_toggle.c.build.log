@@ -1,0 +1,10 @@
+10:33:31 **** Incremental Build of configuration Debug for project que6_toggle.c ****
+make -j12 all 
+arm-none-eabi-size  que6_toggle.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1028	      4	   1564	   2596	    a24	que6_toggle.c.elf
+Finished building: default.size.stdout
+ 
+
+10:33:31 Build Finished. 0 errors, 0 warnings. (took 152ms)
+

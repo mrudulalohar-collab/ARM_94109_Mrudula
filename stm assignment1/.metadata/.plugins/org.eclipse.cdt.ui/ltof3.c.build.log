@@ -1,0 +1,10 @@
+09:07:55 **** Incremental Build of configuration Debug for project ltof3.c ****
+make -j12 all 
+arm-none-eabi-size  ltof3.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1072	      4	   1564	   2640	    a50	ltof3.c.elf
+Finished building: default.size.stdout
+ 
+
+09:07:55 Build Finished. 0 errors, 0 warnings. (took 140ms)
+

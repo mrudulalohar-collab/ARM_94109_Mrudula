@@ -1,0 +1,17 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:alternateled.c Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:r_l.c Debug,org.eclipse.launchbar.core.descriptorType.default\:que5_all_led_blink.c Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:alternateled.c\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:alternateled.c\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:que1.c\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:single\ led.c\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:single\ led.c\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:que1.c\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:que1.c\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:que5_all_led_blink.c\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:r_l.c\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:single\ led.c\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:single\ led.c\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
