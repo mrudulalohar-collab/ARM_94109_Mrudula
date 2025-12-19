@@ -1,0 +1,4 @@
+../Src/my_toggle.c:12:6:led_init	1
+../Src/my_toggle.c:44:6:led_toggle	1
+../Src/my_toggle.c:54:6:switch_init	1
+../Src/my_toggle.c:88:5:switch_status	2

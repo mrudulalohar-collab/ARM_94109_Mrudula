@@ -1,0 +1,4 @@
+../Src/my_switch.c:20:6:switch_init	1
+../Src/my_switch.c:54:5:switch_status	2
+../Src/my_switch.c:76:5:switch_read	1
+../Src/my_switch.c:86:5:switch_press_count	3

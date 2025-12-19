@@ -1,0 +1,72 @@
+!SESSION 2025-12-18 08:30:05.415 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-18 08:30:58.976
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-18 08:30:58.978
+!MESSAGE Log4j2 initialized with config file C:\ST\stm assignment2\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-18 08:31:02.459
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 08:34:02.361
+!MESSAGE Indexed 'que1_gpio.c' (3 sources, 53 headers) in 1.22 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 08:39:42.151
+!MESSAGE Indexed 'Switch.c' (7 sources, 10 headers) in 0.792 sec: 1,097 declarations; 1,467 references; 18 unresolved inclusions; 35 syntax errors; 830 unresolved names (24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 08:54:06.407
+!MESSAGE Indexed 'Led_genric.c' (6 sources, 62 headers) in 0.761 sec: 3,276 declarations; 4,816 references; 6 unresolved inclusions; 36 syntax errors; 737 unresolved names (8.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 09:14:04.690
+!MESSAGE Indexed 'Led.c' (6 sources, 65 headers) in 1.32 sec: 3,425 declarations; 5,722 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 11:44:18.584
+!MESSAGE Indexed 'Switch.c' (12 sources, 75 headers) in 2.74 sec: 4,796 declarations; 8,419 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.015%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-18 11:56:12.973
+!MESSAGE Indexed 'que2_toggleled.c' (3 sources, 53 headers) in 0.224 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-12-19 09:20:33.946 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-19 09:20:55.586
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-19 09:20:55.586
+!MESSAGE Log4j2 initialized with config file C:\ST\stm assignment2\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-19 09:21:03.826
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-19 09:32:18.717 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-19 09:32:43.309
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-19 09:32:43.309
+!MESSAGE Log4j2 initialized with config file C:\ST\stm assignment2\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-19 09:32:51.787
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 09:33:58.631
+!MESSAGE Indexed 'que3_sequence.c' (3 sources, 53 headers) in 1.63 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 09:40:45.908
+!MESSAGE Indexed 'que3_sequence.c' (7 sources, 66 headers) in 0.533 sec: 3,447 declarations; 5,790 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 10:45:13.770
+!MESSAGE Indexed 'que2_toggleled.c' (6 sources, 65 headers) in 0.537 sec: 3,429 declarations; 5,725 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)

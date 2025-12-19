@@ -1,0 +1,4 @@
+../Src/my_led.c:12:6:led_init	1
+../Src/my_led.c:44:6:led_blue_on	1
+../Src/my_led.c:52:6:led_green_on	1
+../Src/my_led.c:60:6:led_off	1

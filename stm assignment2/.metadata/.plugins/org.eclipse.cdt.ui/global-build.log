@@ -1,0 +1,69 @@
+10:44:34 **** Clean-only build of configuration Debug for project que2_toggleled.c ****
+make -j12 clean 
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/itm.cyclo ./Src/itm.d ./Src/itm.o ./Src/itm.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/my_toggle.cyclo ./Src/my_toggle.d ./Src/my_toggle.o ./Src/my_toggle.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/system_stm32f4xx.cyclo ./Src/system_stm32f4xx.d ./Src/system_stm32f4xx.o ./Src/system_stm32f4xx.su ./Src/toggle.cyclo ./Src/toggle.d ./Src/toggle.o ./Src/toggle.su
+rm -rf default.size.stdout que2_toggleled.c.elf que2_toggleled.c.list que2_toggleled.c.map
+ 
+10:46:24 **** Incremental Build of configuration Debug for project que1_gpio.c ****
+make -j12 all 
+arm-none-eabi-size  que1_gpio.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1076	      0	   1568	   2644	    a54	que1_gpio.c.elf
+Finished building: default.size.stdout
+ 
+10:46:25 **** Build of configuration Debug for project que2_toggleled.c ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/my_toggle.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/my_toggle.d" -MT"Src/my_toggle.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/my_toggle.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/system_stm32f4xx.o"
+arm-none-eabi-gcc "../Src/toggle.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/toggle.d" -MT"Src/toggle.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/toggle.o"
+arm-none-eabi-gcc -o "que2_toggleled.c.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\ST\stm assignment2\que2_toggleled.c\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="que2_toggleled.c.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: que2_toggleled.c.elf
+ 
+arm-none-eabi-size  que2_toggleled.c.elf 
+arm-none-eabi-objdump -h -S que2_toggleled.c.elf  > "que2_toggleled.c.list"
+   text	   data	    bss	    dec	    hex	filename
+   1028	      0	   1568	   2596	    a24	que2_toggleled.c.elf
+Finished building: default.size.stdout
+ 
+Finished building: que2_toggleled.c.list
+ 
+10:46:26 **** Incremental Build of configuration Debug for project que3_sequence.c ****
+make -j12 all 
+arm-none-eabi-size  que3_sequence.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1176	      0	   1568	   2744	    ab8	que3_sequence.c.elf
+Finished building: default.size.stdout
+ 
+10:46:43 **** Incremental Build of configuration Debug for project que1_gpio.c ****
+make -j12 all 
+arm-none-eabi-size  que1_gpio.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1076	      0	   1568	   2644	    a54	que1_gpio.c.elf
+Finished building: default.size.stdout
+ 
+10:46:43 **** Incremental Build of configuration Debug for project que2_toggleled.c ****
+make -j12 all 
+arm-none-eabi-size  que2_toggleled.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1028	      0	   1568	   2596	    a24	que2_toggleled.c.elf
+Finished building: default.size.stdout
+ 
+10:46:43 **** Incremental Build of configuration Debug for project que3_sequence.c ****
+make -j12 all 
+arm-none-eabi-size  que3_sequence.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1176	      0	   1568	   2744	    ab8	que3_sequence.c.elf
+Finished building: default.size.stdout
+ 
+10:46:57 **** Incremental Build of configuration Debug for project que2_toggleled.c ****
+make -j12 all 
+arm-none-eabi-size  que2_toggleled.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1028	      0	   1568	   2596	    a24	que2_toggleled.c.elf
+Finished building: default.size.stdout
+ 
