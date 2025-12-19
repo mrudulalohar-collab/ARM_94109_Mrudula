@@ -1,0 +1,10 @@
+12:57:29 **** Incremental Build of configuration Debug for project que1_interrupt_trigger.c ****
+make -j12 all 
+arm-none-eabi-size  que1_interrupt_trigger.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1404	      4	   1564	   2972	    b9c	que1_interrupt_trigger.c.elf
+Finished building: default.size.stdout
+ 
+
+12:57:29 Build Finished. 0 errors, 0 warnings. (took 136ms)
+

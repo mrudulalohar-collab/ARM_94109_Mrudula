@@ -1,0 +1,27 @@
+!SESSION 2025-12-19 12:20:47.365 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-19 12:21:09.854
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-19 12:21:09.856
+!MESSAGE Log4j2 initialized with config file C:\ST\stm assignment3\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-19 12:21:13.461
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 12:23:35.653
+!MESSAGE Indexed 'que1_interrupt_trigger.c' (3 sources, 53 headers) in 1.84 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 12:26:42.125
+!MESSAGE Indexed 'Led_switch_exti0' (7 sources, 10 headers) in 1.74 sec: 1,099 declarations; 1,486 references; 16 unresolved inclusions; 35 syntax errors; 836 unresolved names (24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 12:54:29.817
+!MESSAGE Indexed 'que1_interrupt_trigger.c' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-19 13:02:49.135
+!MESSAGE Indexed 'que2_software.c' (2 sources, 53 headers) in 0.961 sec: 1,952 declarations; 2,861 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
