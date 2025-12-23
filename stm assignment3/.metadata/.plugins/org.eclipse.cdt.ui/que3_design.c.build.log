@@ -1,0 +1,20 @@
+09:41:22 **** Incremental Build of configuration Debug for project que3_design.c ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/ext_intr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/ext_intr.d" -MT"Src/ext_intr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/ext_intr.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/ext_intr.c:10:10: error: unknown type name 'unit8_t'
+   10 | volatile unit8_t led_state = 0;
+      |          ^~~~~~~
+../Src/main.c:23:10: error: unknown type name 'unit8_t'
+   23 | volatile unit8_t led_state = 0;
+      |          ^~~~~~~
+../Src/main.c:29:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   29 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+make: *** [Src/subdir.mk:37: Src/ext_intr.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:37: Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+09:41:23 Build Failed. 5 errors, 1 warnings. (took 602ms)
+
