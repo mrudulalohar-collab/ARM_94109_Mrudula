@@ -1,0 +1,10 @@
+10:33:59 **** Incremental Build of configuration Debug for project que_2.c ****
+make -j12 all 
+arm-none-eabi-size  que_2.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6100	     12	   1572	   7684	   1e04	que_2.c.elf
+Finished building: default.size.stdout
+ 
+
+10:34:00 Build Finished. 0 errors, 0 warnings. (took 587ms)
+
