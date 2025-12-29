@@ -1,0 +1,66 @@
+12:15:07 **** Build of configuration Debug for project que4_numeric.c ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:80:3: warning: data definition has no type or storage class
+   80 |   HAL_Init();
+      |   ^~~~~~~~
+../Core/Src/main.c:80:3: warning: type defaults to 'int' in declaration of 'HAL_Init' [-Wimplicit-int]
+../Core/Src/main.c:80:3: error: conflicting types for 'HAL_Init'; have 'int()'
+In file included from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:219:19: note: previous declaration of 'HAL_Init' with type 'HAL_StatusTypeDef(void)'
+  219 | HAL_StatusTypeDef HAL_Init(void);
+      |                   ^~~~~~~~
+../Core/Src/main.c:87:3: warning: data definition has no type or storage class
+   87 |   SystemClock_Config();
+      |   ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:87:3: warning: type defaults to 'int' in declaration of 'SystemClock_Config' [-Wimplicit-int]
+../Core/Src/main.c:87:3: error: conflicting types for 'SystemClock_Config'; have 'int()'
+../Core/Src/main.c:50:6: note: previous declaration of 'SystemClock_Config' with type 'void(void)'
+   50 | void SystemClock_Config(void);
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:94:3: warning: data definition has no type or storage class
+   94 |   MX_GPIO_Init();
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:94:3: warning: type defaults to 'int' in declaration of 'MX_GPIO_Init' [-Wimplicit-int]
+../Core/Src/main.c:94:3: error: conflicting types for 'MX_GPIO_Init'; have 'int()'
+../Core/Src/main.c:51:13: note: previous declaration of 'MX_GPIO_Init' with type 'void(void)'
+   51 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:95:3: warning: data definition has no type or storage class
+   95 |   MX_I2C1_Init();
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:95:3: warning: type defaults to 'int' in declaration of 'MX_I2C1_Init' [-Wimplicit-int]
+../Core/Src/main.c:95:3: error: conflicting types for 'MX_I2C1_Init'; have 'int()'
+../Core/Src/main.c:52:13: note: previous declaration of 'MX_I2C1_Init' with type 'void(void)'
+   52 | static void MX_I2C1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:102:3: error: expected identifier or '(' before 'while'
+  102 |   while (1)
+      |   ^~~~~
+../Core/Src/main.c:109:1: error: expected identifier or '(' before '}' token
+  109 | }
+      | ^
+../Core/Src/main.c:162:13: error: conflicting types for 'MX_I2C1_Init'; have 'void(void)'
+  162 | static void MX_I2C1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:95:3: note: previous declaration of 'MX_I2C1_Init' with type 'int()'
+   95 |   MX_I2C1_Init();
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:196:13: error: conflicting types for 'MX_GPIO_Init'; have 'void(void)'
+  196 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:94:3: note: previous declaration of 'MX_GPIO_Init' with type 'int()'
+   94 |   MX_GPIO_Init();
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:196:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  196 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:162:13: warning: 'MX_I2C1_Init' defined but not used [-Wunused-function]
+  162 | static void MX_I2C1_Init(void)
+      |             ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+12:15:08 Build Failed. 9 errors, 10 warnings. (took 842ms)
+

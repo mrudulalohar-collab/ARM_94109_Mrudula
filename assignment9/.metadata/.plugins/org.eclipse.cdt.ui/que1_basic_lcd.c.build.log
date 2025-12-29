@@ -1,0 +1,10 @@
+12:48:56 **** Incremental Build of configuration Debug for project que1_basic_lcd.c ****
+make -j12 all 
+arm-none-eabi-size  que1_basic_lcd.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9668	     12	   1660	  11340	   2c4c	que1_basic_lcd.c.elf
+Finished building: default.size.stdout
+ 
+
+12:48:56 Build Finished. 0 errors, 0 warnings. (took 204ms)
+
